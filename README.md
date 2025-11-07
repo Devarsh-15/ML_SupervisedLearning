@@ -37,3 +37,34 @@ Implemented GradientBoostingClassifier with deep explanations of sequential tree
 
 XGBoost (Extreme Gradient Boosting)
 Implemented XGBClassifier with detailed parameter explanations and learned second-order optimization, regularization, shrinkage, subsampling, and column sampling. Evaluated the model using accuracy, precision, recall, and F1-score, visualized confusion matrix, and performed hyperparameter tuning. Also implemented XGBRegressor for regression tasks. Saved model and predictions for future comparison.
+
+
+## ✅ Supervised Learning – Final Model Comparison
+
+This repository now includes a complete comparison of major supervised learning algorithms:
+- Linear Regression + Regularization (Day 1)
+- Logistic Regression
+- KNN
+- SVM (RBF & Linear)
+- Decision Tree
+- Random Forest
+- AdaBoost
+- Gradient Boosting
+- XGBoost
+
+### ✅ `Model_Comparison.ipynb`
+A final notebook comparing all models on the Breast Cancer dataset using:
+- Accuracy
+- Precision
+- Recall
+- F1-Score
+
+### ✅ Conclusion
+XGBoost performed the best overall, followed closely by Gradient Boosting and Random Forest.  
+The comparison table and graphs help visualize the differences clearly.
+
+### ✅ Files Added
+- `Model_Comparison.ipynb`
+- `Model_Comparison_Table.csv`
+- Updated `README.md`
+
